@@ -1,6 +1,6 @@
 rm -rf train/*
 /content/tesseract/src/training/tesstrain.sh --fonts_dir fonts \
-	--fontlist 'DS-Digital' \
+	--fontlist 'ds-digital' \
 	--lang eng \
 	--linedata_only \
 	--langdata_dir langdata_lstm \
