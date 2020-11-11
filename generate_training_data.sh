@@ -1,5 +1,5 @@
 rm -rf train/*
-/content/tesseract/src/training/tesstrain.sh --fonts_dir fonts \
+/content/tesseract_train_gcolab/tesseract/src/training/tesstrain.sh --fonts_dir fonts \
 	--fontlist 'ds-digital' \
 	--lang eng \
 	--linedata_only \
